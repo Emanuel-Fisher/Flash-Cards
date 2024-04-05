@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flashcards Review</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .card {
+      display: inline-block;
+      width: 200px;
+      height: 150px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      margin: 10px;
+      overflow: hidden;
+      position: relative;
+      cursor: pointer;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .question {
+      padding: 10px;
+      font-weight: bold;
+    }
+
+    .answer {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255, 255, 255, 0.9);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+    .card:hover .answer {
+      opacity: 1;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Flashcards Review: Hard Addition</h1>
+
+  <div class="card">
+    <div class="question">You are a bus driver, 8 people get on, 2 people get off, 2 more people get on and another 1
+      get off. Finally, 3 more people get on and 2 get off again. How old is the bus driver?</div>
+    <div class="answer">...You should know...afterall YOU are driving the bus</div>
+  </div>
+
+  <div class="card">
+    <div class="question">I travel all around the world, yet never leave the corner, what am I?</div>
+    <div class="answer">Stamp (it travels all around the world, but never leaves the corner of the enelope.</div>
+  </div>
+
+  <div class="card">
+    <div class="question">The red house is made of red bricks. The blue house is made of blue bricks. The black house is
+      made of black bricks. Whats the green house made of?</div>
+    <div class="answer">Glass</div>
+  </div>
+
+  <div class="card">
+    <div class="question">Mr. Black lives in the black house, Mr. Green lives in the green house, Mr. Red lives in the
+      red house. Who lives in the white house?</div>
+    <div class="answer">The president</div>
+  </div>
+
+  <div class="card">
+    <div class="question">If you touch me you can die, yet you need me often. If you feed me, I will grow, but water
+      kills me. What am I</div>
+    <div class="answer">Fire</div>
+  </div>
+
+  <div class="card">
+    <div class="question">What goes up but never comes down?</div>
+    <div class="answer">your age: theres a lot of answers for this one :)</div>
+  </div>
+
+  <div class="card">
+    <div class="question">What was Kobe Bryants birthday</div>
+    <div class="answer">August 23rd, (I had to include that because we shared the same birthday)</div>
+  </div>
+
+  <div class="card">
+    <div class="question">How did you do one your riddles?</div>
+    <div class="answer">As long as you did your best, you did fantastic!</div>
+  </div>
+
+</body>
+
+</html>
